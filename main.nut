@@ -303,7 +303,7 @@ function onPlayerPart( player, reason )
 function onPlayerRequestClass( player, classID, team, skin )
 {
 	//Debug
-	player.Spawn();
+	//player.Spawn();
 	
 	return 1;
 }
@@ -379,7 +379,8 @@ function SpawnWeaponPickups(player)
 				local ammo = player.GetAmmoAtSlot(i);
 				local model;
 				
-				switch (weapon){
+				switch (weapon)
+				{
 					case 12:{model = 270;break;}//Grenades
 					case 17:{model = 274;break;}//Colt 45
 					case 18:{model = 275;break;}//Python
