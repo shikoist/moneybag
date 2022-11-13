@@ -1,3 +1,8 @@
+/*
+vehicles.nut by Stormeus beta server example
+some additions/deletions by shikoist
+*/
+
 OldCreateVehicle <- CreateVehicle;
 CreateVehicle <- function(id, world, pos, angle, c1, c2)
 {
